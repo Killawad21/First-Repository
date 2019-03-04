@@ -65,6 +65,16 @@ def print_sum(x, y):
 
 print_sum(54, 99)
 
+# 4.16.3: Enter a Number using Try & Except
+# Logan Pennock
+# 2.20.19
 
+
+try:
+    my_num = int(input('Enter an integer: '))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('that is not and integer!);, Off to goolag')
 
 
