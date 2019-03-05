@@ -77,3 +77,20 @@ except ValueError:
     print('that is not and integer!);, Off to goolag')
 
 
+# 4.16.4: Enter Name & Age using the Try & Except Rule
+# Logan Pennock
+# 2.20.19
+
+name = input('Enter you name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age:'))
+
+except ValueError:
+    print("That wasn't an integer for your age! Off to gulag!!!!!!!!!!!!")
+
+print ('\n''Name:', name)
+print ('Age:', age)
+>>>>>>> enter-name-and-age
