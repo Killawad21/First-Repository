@@ -52,11 +52,10 @@ name_and_age('Zane', 18)
 def print_two_numbers(x, y = 20):
     print('First number:', x)
     print('Second number: ' + str(y))
-    
 print_two_numbers(34, 45)
 print_two_numbers(78)
 
-#4.14.6: Print sum
+# 4.14.6: Print sum
 # Logan Pennock
 # 2.19.18
 
@@ -64,4 +63,17 @@ def print_sum(x, y):
     print(x + y)
 
 print_sum(54, 99)
+
+# 4.16.3: Enter a Number using Try & Except
+# Logan Pennock
+# 2.20.19
+
+
+try:
+    my_num = int(input('Enter an integer: '))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('that is not and integer!);, Off to goolag')
+
 
