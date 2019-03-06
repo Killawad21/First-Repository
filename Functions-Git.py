@@ -93,4 +93,15 @@ except ValueError:
 
 print ('\n''Name:', name)
 print ('Age:', age)
->>>>>>> enter-name-and-age
+
+# program tracing
+# Logan Pennock
+
+x = 20
+y = 2
+
+while x > 1:
+    print (x)
+    x = x - y
+    y = y * 2
+
