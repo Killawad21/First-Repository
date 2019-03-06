@@ -93,4 +93,22 @@ except ValueError:
 
 print ('\n''Name:', name)
 print ('Age:', age)
->>>>>>> enter-name-and-age
+
+# Logan Pennock
+# 1.14.19
+
+my_number = 4
+
+print ("Hello, Guess a number between 1-10")
+
+print ("")
+
+guess = int(input("Enter a guess: "))
+
+while guess != my_number:
+    print("")
+    print ("Thats not my number, Guess again")
+    print("")
+    guess = int(input("Enter a guess: "))
+print("")
+print ("Thats my number")
