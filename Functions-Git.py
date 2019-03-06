@@ -113,3 +113,15 @@ while guess != my_number:
     guess = int(input("Enter a guess: "))
 print("")
 print ("Thats my number")
+
+# program tracing
+# Logan Pennock
+
+x = 20
+y = 2
+
+while x > 1:
+    print (x)
+    x = x - y
+    y = y * 2
+
